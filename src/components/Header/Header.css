@@ -1,0 +1,19 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(25, 26, 29);
+}
+.ml-auto.navbar-nav a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(204, 204, 204);
+    text-transform: uppercase;
+    padding: 15px;
+}
+.navbar-light .navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(204, 204, 204);
+}
