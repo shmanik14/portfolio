@@ -9,16 +9,17 @@ const Header = () => {
     return (
         <header className="header">
             <Container>
-                <Navbar collapseOnSelect expand="lg">
+                <Navbar collapseOnSelect expand="lg" fixed="top">
                     <Navbar.Brand>Sahadat Hossain</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
-                            <Link to="/">Home</Link>
-                            <Link to="/about">About</Link>
-                            <Link to="/projects">Projects</Link>
-                            <Link to="/blog">Blog</Link>                           
-                            <Link to="/contact">Contact</Link>                           
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="#skills">Skills</Nav.Link>
+                            <Nav.Link href="#projects">Projects</Nav.Link>
+                            <Nav.Link href="#blog">Blog</Nav.Link>                         
+                            <Nav.Link href="#contact">Contact</Nav.Link>                          
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

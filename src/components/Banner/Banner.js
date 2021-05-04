@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import sahadat from '../../images/sahadat.jpg';
-import './Banner.css'
+import './Banner.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload} from '@fortawesome/free-solid-svg-icons';
+
 
 const Banner = () => {
     return (
@@ -15,10 +18,10 @@ const Banner = () => {
                     </Col>
                     <Col xs={12} md={6}>
                         <div className="banner-content">
-                            <span>Hello, I'm</span>
+                            <span className="intro">Hello, I'm</span>
                             <h1>Sahadat Hossain</h1>
-                            <p>Creative Photographer based in New York and happy to travel all over Europe to capture photos.</p>
-                            <a href="https://drive.google.com/uc?export=download&id=1w_rr1HxcvpepmOXEDdeyL582rNLIgjP3" className="btn prt-btn">Download Resume</a>
+                            <p>React Developer</p>
+                            <a href="https://drive.google.com/uc?export=download&id=1w_rr1HxcvpepmOXEDdeyL582rNLIgjP3" className="btn prt-btn"><span><FontAwesomeIcon icon={faDownload} /></span> Download Resume</a>
                         </div>
                     </Col>
                 </Row>

@@ -1,6 +1,6 @@
 .header {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: rgb(25, 26, 29);
 }
 .ml-auto.navbar-nav a {
@@ -16,4 +16,21 @@
     font-weight: 700;
     text-transform: uppercase;
     color: rgb(204, 204, 204);
+}
+.fixed-top{
+    background: rgb(25, 26, 29);
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(204, 204, 204);
+    text-transform: uppercase;
+    padding: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #0063D1 !important;
 }

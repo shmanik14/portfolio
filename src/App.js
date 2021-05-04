@@ -6,15 +6,17 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import About from './components/About/About';
 
 function App() {
   return (
     <div className="portfolio">
       <Router>
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/about" component={About} />
         </Switch>
       </Router>
     </div>
