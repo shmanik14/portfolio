@@ -10,8 +10,11 @@
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 500px;
+    width: 450px;
     height: auto;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 20px;
   }
   .swiper-slide img {
     display: block;
@@ -28,6 +31,7 @@
   margin-right: 10px;
   color: #fff;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .project-tech button.react-btn{
   background: #ff0099;

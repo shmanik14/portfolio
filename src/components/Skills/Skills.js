@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faWordpress } from '@fortawesome/free-brands-svg-icons';

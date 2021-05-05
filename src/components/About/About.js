@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './About.css';
+import about from '../../images/about.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub, faLinkedinIn, faDribbble  } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn  } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
     return (
@@ -20,16 +21,14 @@ const About = () => {
                         </div>
                         <div className="social">
                             <ul>
-                                <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                                <li><a href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
-                                <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="#"><FontAwesomeIcon icon={faDribbble} /></a></li>
+                                <li><a href="https://github.com/shmanik14/" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a  href="https://www.linkedin.com/in/shmanik14/" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
                             </ul>
                         </div>
                     </Col>
                     <Col xs={12} md={5}>
                         <div className="about-img">
-
+                            <img src={about} alt="About Avatar" className="img-fluid"/>
                         </div>
                     </Col>
                 </Row>

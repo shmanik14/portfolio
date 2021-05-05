@@ -1,0 +1,14 @@
+.contact{
+    padding: 60px 0;
+    background-color: #f3f3f3;
+}
+form.contact-form .form-control {
+    margin-bottom: 15px;
+}
+.sub-btn {
+    background-color: #0063D1;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 25px;
+    border-radius: 23px;
+}

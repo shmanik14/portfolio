@@ -31,7 +31,7 @@ const Projects = () => {
           "slideShadows": true
           }}loop={true} autoplay={true} pagination={true} className="mySwiper">
           <SwiperSlide>
-            <img src={wefix} />
+            <img src={wefix} alt="Project Avatar" />
             <div className="project-card">
               <div className="project-tech">
                 <button className="btn react-btn">React</button>
@@ -41,13 +41,13 @@ const Projects = () => {
                 <button className="btn firebase-btn">Firebase</button>
               </div>
               <div className="project-detail">
-                <h4>WeFix</h4>
+                <h4><a href="https://wefix-4390e.web.app/" target="_blank" rel="noreferrer">WeFix</a></h4>
                 <p>WeFix is a computer and mobile repair service provider website.</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={paint} />
+            <img src={paint} alt="Project Avatar" />
             <div className="project-card">
               <div className="project-tech">
                 <button className="btn react-btn">React</button>
@@ -57,13 +57,13 @@ const Projects = () => {
                 <button className="btn firebase-btn">Firebase</button>
               </div>
               <div className="project-detail">
-                <h4>Painting Precision</h4>
+                <h4><a href="https://paint-17140.web.app/" target="_blank" rel="noreferrer">Painting Precision</a></h4>
                 <p>It is a E-commerce website for buy and sell painting.</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rider} />
+            <img src={rider} alt="Project Avatar" />
             <div className="project-card">
               <div className="project-tech">
                 <button className="btn react-btn">React</button>
@@ -72,13 +72,13 @@ const Projects = () => {
                 <button className="btn firebase-btn">Firebase</button>
               </div>
               <div className="project-detail">
-                <h4>Chattala Rider</h4>
+                <h4><a href="https://urban-rider-c4f6f.web.app/" target="_blank" rel="noreferrer">Chattala Rider</a></h4>
                 <p>It is simple riders react project with firebase authentication.</p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={amuse} />
+            <img src={amuse} alt="Project Avatar" />
             <div className="project-card">
               <div className="project-tech">
                 <button className="btn react-btn">React</button>
@@ -87,7 +87,7 @@ const Projects = () => {
                 <button className="btn firebase-btn">Netlify</button>
               </div>
               <div className="project-detail">
-                <h4>Amusement Madness</h4>
+                <h4><a href="https://nervous-raman-fb0bfc.netlify.app/" target="_blank" rel="noreferrer">Amusement Madness</a></h4>
                 <p>Show data with SportsDB API with dynamic route.</p>
               </div>
             </div>

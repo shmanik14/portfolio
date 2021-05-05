@@ -8,7 +8,7 @@ import { faDownload} from '@fortawesome/free-solid-svg-icons';
 
 const Banner = () => {
     return (
-        <div className="banner">
+        <div className="banner" id="banner">
             <Container>
                 <Row className="justify-content-between align-items-center">
                     <Col xs={12} md={6}>
