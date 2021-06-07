@@ -21,7 +21,7 @@ const Banner = () => {
                             <span className="intro">Hello, I'm</span>
                             <h1>Sahadat Hossain</h1>
                             <p>React Developer</p>
-                            <a href="https://drive.google.com/uc?export=download&id=1w_rr1HxcvpepmOXEDdeyL582rNLIgjP3" className="btn prt-btn"><span><FontAwesomeIcon icon={faDownload} /></span> Download Resume</a>
+                            <a href="https://drive.google.com/file/d/1Pqc44TECuGyCLfVOr1qdHc1BcJFY5f3f/view?usp=sharing" className="btn prt-btn"><span><FontAwesomeIcon icon={faDownload} /></span> View Resume</a>
                         </div>
                     </Col>
                 </Row>

@@ -70,3 +70,17 @@
 .banner-content a span{
     padding-right: 10px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-light .navbar-toggler-icon{
+        background-color: #fff !important;
+    }
+    .banner-content {
+        padding-top: 120px;
+    }  
+    .about-img {
+        padding-top: 30px;
+    }
+    .swiper-slide{
+        width: 300px !important;
+    }
+}
