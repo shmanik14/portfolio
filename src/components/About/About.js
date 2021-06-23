@@ -1,9 +1,9 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './About.css';
-import about from '../../images/about.png'
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn  } from '@fortawesome/free-brands-svg-icons';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import about from '../../images/s-portfolio.jpg';
+import './About.css';
 
 const About = () => {
     return (

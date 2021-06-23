@@ -1,18 +1,17 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Container } from 'react-bootstrap';
-
-import "swiper/swiper.min.css";
-import "swiper/components/effect-coverflow/effect-coverflow.min.css"
+import "swiper/components/effect-coverflow/effect-coverflow.min.css";
 import "swiper/components/pagination/pagination.min.css";
-import './Projects.css';
-import wefix from '../../images/wefix.png';
-import paint from '../../images/paint.png';
-import rider from '../../images/Chattala Riders.png';
+import SwiperCore, { Autoplay, EffectCoverflow, Pagination } from 'swiper/core';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.min.css";
 import amuse from '../../images/amusement.png';
+import rider from '../../images/Chattala Riders.png';
+import paint from '../../images/paint.png';
+import home from '../../images/Sweet Home.png';
+import wefix from '../../images/wefix.png';
+import './Projects.css';
 
-
-import SwiperCore, {EffectCoverflow,Pagination,Autoplay} from 'swiper/core';
 
 SwiperCore.use([EffectCoverflow,Pagination,Autoplay]);
 
@@ -59,6 +58,22 @@ const Projects = () => {
               <div className="project-detail">
                 <h4><a href="https://paint-17140.web.app/" target="_blank" rel="noreferrer">Painting Precision</a></h4>
                 <p>It is a E-commerce website for buy and sell painting.</p>
+              </div>
+            </div>
+          </SwiperSlide>         
+          <SwiperSlide>
+            <img src={home} alt="Project Avatar" />
+            <div className="project-card">
+              <div className="project-tech">
+                <button className="btn react-btn">React</button>
+                <button className="btn react-router">Redux</button>
+                <button className="btn react-router">React Router</button>
+                <button className="btn node-btn">Node</button>
+                <button className="btn firebase-btn">Firebase</button>               
+              </div>
+              <div className="project-detail">
+                <h4><a href="https://apartment-hunt-14.web.app/" target="_blank" rel="noreferrer">Sweet Home</a></h4>
+                <p>It is apartment rental website with React JS & Redux.</p>
               </div>
             </div>
           </SwiperSlide>

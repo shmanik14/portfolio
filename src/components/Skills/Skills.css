@@ -1,8 +1,9 @@
-.skills{
+.skills {
     background-color: #f1f1f1;
     padding: 50px 0;
 }
-.section-title h2{
+
+.section-title h2 {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 35px;
@@ -12,23 +13,33 @@
     text-align: center;
     padding-bottom: 40px;
 }
-.sin-skill{
-    padding: 20px;   
+
+.sin-skill {
+    padding: 20px;
     transition: all .3s ease-in-out;
     margin-bottom: 30px;
     -webkit-box-shadow: 0px 20px 60px -30px rgb(0 0 0 / 45%);
-    -moz-box-shadow: 0px 20px 60px -30px rgba(0,0,0,.45);
+    -moz-box-shadow: 0px 20px 60px -30px rgba(0, 0, 0, .45);
     box-shadow: 0px 20px 60px -30px rgb(0 0 0 / 45%);
     background-color: #ffffff;
     text-align: center;
     border-radius: 5px;
 }
-.sin-skill span{
+
+.sin-skill:hover {
+    -webkit-transform: translateY(-0.25rem);
+    -ms-transform: translateY(-0.25rem);
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 2px 4px rgb(46 41 51 / 8%), 0px 5px 10px rgb(71 63 79 / 16%);
+}
+
+.sin-skill span {
     color: #0063D1;
     font-weight: 700;
     font-size: 22px;
 }
-.sin-skill p{
+
+.sin-skill p {
     font-weight: 700;
     font-weight: 20px;
 }
