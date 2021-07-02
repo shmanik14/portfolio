@@ -3,6 +3,7 @@
     padding-bottom: 20px;
     background: rgb(25, 26, 29);
 }
+
 .ml-auto.navbar-nav a {
     font-size: 14px;
     font-weight: 600;
@@ -11,15 +12,18 @@
     text-transform: uppercase;
     padding: 15px;
 }
+
 .navbar-light .navbar-brand {
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
     color: rgb(204, 204, 204);
 }
-.fixed-top{
+
+.fixed-top {
     background: rgb(25, 26, 29);
 }
+
 .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
     font-weight: 600;
@@ -28,9 +32,16 @@
     text-transform: uppercase;
     padding: 15px;
 }
-.navbar-light .navbar-nav .nav-link:hover{
+
+.navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
 }
-.navbar-light .navbar-nav .nav-link.active{
+
+.navbar-light .navbar-nav .nav-link.active {
     color: #0063D1 !important;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #fff;
 }

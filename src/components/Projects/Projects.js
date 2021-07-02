@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import amuse from '../../images/amusement.png';
 import rider from '../../images/Chattala Riders.png';
+import blog from '../../images/daily-dose-blog.png';
 import paint from '../../images/paint.png';
 import home from '../../images/Sweet Home.png';
 import wefix from '../../images/wefix.png';
@@ -42,6 +43,23 @@ const Projects = () => {
               <div className="project-detail">
                 <h4><a href="https://wefix-4390e.web.app/" target="_blank" rel="noreferrer">WeFix</a></h4>
                 <p>WeFix is a computer and mobile repair service provider website.</p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={blog} alt="Project Avatar" />
+            <div className="project-card">
+              <div className="project-tech">
+                <button className="btn react-btn">React</button>
+                <button className="btn node-btn">Node JS</button>
+                <button className="btn mongo-btn">MongoDB</button>
+                <button className="btn heroku-btn">Tailwindcss</button>
+                <button className="btn heroku-btn">Heroku</button>
+                <button className="btn firebase-btn">Firebase</button>
+              </div>
+              <div className="project-detail">
+                <h4><a href="https://daily-dose-blog.web.app/" target="_blank" rel="noreferrer">Daily Dose Blog</a></h4>
+                <p>It is a Retro themed blog.</p>
               </div>
             </div>
           </SwiperSlide>
