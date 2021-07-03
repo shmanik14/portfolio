@@ -1,16 +1,24 @@
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import about from '../../images/s-portfolio.jpg';
 import './About.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({
+            duration : 2000
+          });
+        AOS.refresh();
+      }, []);
     return (
         <div className="about" id="about">
             <Container>
                 <Row className="justify-content-between align-items-center">
-                    <Col xs={12} md={7}>
+                    <Col xs={12} md={7} data-aos="zoom-in">
                         <div className="about-content">
                             <h2 className="name">Sahadat Hossain</h2>
                             <p className="designation">React Developer</p>
@@ -27,7 +35,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col xs={12} md={5}>
-                        <div className="about-img">
+                        <div className="about-img" data-aos="flip-right">
                             <img src={about} alt="About Avatar" className="img-fluid"/>
                         </div>
                     </Col>

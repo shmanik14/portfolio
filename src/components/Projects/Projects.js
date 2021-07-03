@@ -1,4 +1,6 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { Container } from 'react-bootstrap';
 import "swiper/components/effect-coverflow/effect-coverflow.min.css";
 import "swiper/components/pagination/pagination.min.css";
@@ -17,13 +19,19 @@ import './Projects.css';
 SwiperCore.use([EffectCoverflow,Pagination,Autoplay]);
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({
+        duration : 2000
+      });
+    AOS.refresh();
+  }, []);
     return (
     <div className="projects" id="projects">
       <Container>
-        <div className="section-title">
+        <div className="section-title" data-aos="fade-up-left">
             <h2>Projects</h2>
         </div>
-        <Swiper effect={'coverflow'} grabCursor={true} centeredSlides={true} slidesPerView={'auto'} coverflowEffect={{
+        <Swiper data-aos="fade-up-left" effect={'coverflow'} grabCursor={true} centeredSlides={true} slidesPerView={'auto'} coverflowEffect={{
           "rotate": 50,
           "stretch": 0,
           "depth": 100,

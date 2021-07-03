@@ -1,82 +1,90 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './Skills.css';
+import { faCss3Alt, faHtml5, faJs, faNodeJs, faReact, faWordpress } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faWordpress } from '@fortawesome/free-brands-svg-icons';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import './Skills.css';
 
 
 const Skills = () => {
+    useEffect(() => {
+        AOS.init({
+            duration : 2000
+          });
+        AOS.refresh();
+      }, []);
     return (
         <div className="skills" id="skills">
             <Container>
-                <div className="section-title">
+                <div className="section-title" data-aos="fade-up-left">
                     <h2>Skills</h2>
                 </div>
                 <Row className="justify-content-between align-items-center">
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faHtml5} /></span>
                             <p>HTML5</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faCss3Alt} /></span>
                             <p>CSS3</p>
                         </div>
                     </Col><Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faJs} /></span>
                             <p>Javascript</p>
                         </div>
                     </Col><Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faJs} /></span>
                             <p>ES6</p>
                         </div>
                     </Col><Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faReact} /></span>
                             <p>React JS</p>
                         </div>
                     </Col><Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faReact} /></span>
                             <p>Material UI</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faNodeJs} /></span>
                             <p>Node JS</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faNodeJs} /></span>
                             <p>Express JS</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faReact} /></span>
                             <p>Mongo DB</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faReact} /></span>
                             <p>Firebase</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faReact} /></span>
                             <p>React Router</p>
                         </div>
                     </Col>
                     <Col xs={6} md={2}>
-                        <div className="sin-skill">
+                        <div className="sin-skill" data-aos="flip-up">
                             <span><FontAwesomeIcon icon={faWordpress} /></span>
                             <p>WordPress</p>
                         </div>
