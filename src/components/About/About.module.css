@@ -1,12 +1,14 @@
-.about{
+.about {
     padding: 100px 0;
 }
-.about-content{
-    border-bottom: 1px solid rgba(0,0,0,.2);
+
+.content {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
     padding-bottom: 25px;
     margin-bottom: 32px;
 }
-.about-content h2.name{
+
+.content h2.name {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 35px;
@@ -14,14 +16,17 @@
     color: #000;
     line-height: 1.1;
 }
-.about-content p.designation{
+
+.content p.designation {
     font-family: montserrat;
     font-weight: 600;
     padding-top: 10px;
 }
-.about-summary p{
+
+.summary p {
     padding-bottom: 12px;
 }
+
 .social ul {
     list-style: none;
     padding: 0 !important;

@@ -1,0 +1,66 @@
+.projects {
+  padding: 60px 0;
+}
+
+
+
+.project_tech {
+  padding: 15px 0;
+}
+
+button.btn {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.section_title h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
+  position: relative;
+  color: #000;
+  line-height: 1.1;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+button.react_btn {
+  background: #ff0099;
+  background: -webkit-linear-gradient(to right, #ff0099, #493240);
+  background: linear-gradient(to right, #ff0099, #493240);
+}
+
+button.node_btn {
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+}
+
+button.mongo_btn {
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+button.heroku_btn {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389);
+}
+
+button.firebase_btn,
+button.react_router {
+  background: #333333;
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  background: linear-gradient(to right, #dd1818, #333333);
+}
+
+.project_detail h4 {
+  font-weight: 700;
+  font-size: 22px;
+}

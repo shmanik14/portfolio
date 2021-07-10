@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 import './Header.css';
 
 const Header = () => {
@@ -16,8 +17,9 @@ const Header = () => {
     return (
         <header className="header">
             <Container>
+                
                 <Navbar collapseOnSelect expand="lg" fixed="top">
-                    <Navbar.Brand data-aos="fade-right">Sahadat Hossain</Navbar.Brand>
+                <Link to="/"><Navbar.Brand data-aos="fade-right">Sahadat Hossain</Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse data-aos="fade-left" id="responsive-navbar-nav">
                         <Nav className="ml-auto">

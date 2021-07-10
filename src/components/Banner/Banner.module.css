@@ -1,15 +1,17 @@
-@keyframes avatar{
-    0%{
-        border-radius:60% 40% 30% 70%/60% 30% 70% 40%
+@keyframes avatar {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
     }
-    50%{
-        border-radius:30% 60% 70% 40%/50% 60% 30% 60%
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
     }
-    100%
-    {
-        border-radius:60% 40% 30% 70%/60% 30% 70% 40%
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
     }
 }
+
 .banner {
     width: 100%;
     min-height: 100vh;
@@ -23,13 +25,15 @@
     background-size: cover;
     padding: 80px 0;
 }
-.banner .banner-img {
+
+.banner .banner_img {
     max-width: 300px;
     max-height: 300px;
     margin: 0 auto;
     border-radius: 100%;
 }
-.banner .banner-img .avatar {
+
+#avatar {
     /* top: 0;
     bottom: 0;
     left: 0;
@@ -40,47 +44,55 @@
     animation: avatar 8s ease-in-out infinite 1s;
     background-blend-mode: multiply;
     -webkit-box-shadow: 0 0 0 9px rgb(255 255 255 / 30%);
-    -moz-box-shadow: 0 0 0 9px rgba(255,255,255,.3);
+    -moz-box-shadow: 0 0 0 9px rgba(255, 255, 255, .3);
     box-shadow: 0 0 0 9px rgb(255 255 255 / 30%);
 }
 
-.banner-content h1{
+.banner_content h1 {
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 19px;
     color: #ddd;
 }
-.banner-content p {
+
+.banner_content p {
     color: #fff;
     font-family: montserrat;
     font-weight: 600;
 }
-.banner-content span.intro{
+
+.banner_content span.intro {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
 }
-.prt-btn {
+
+.prt_btn {
     background-color: #fff;
     padding: 15px 35px;
     font-size: 16px;
     font-weight: 600;
 }
-.banner-content a span{
+
+.banner_content a span {
     padding-right: 10px;
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
-    .navbar-light .navbar-toggler-icon{
+    .navbar-light .navbar-toggler-icon {
         background-color: #fff !important;
     }
-    .banner-content {
+
+    .banner_content {
         padding-top: 120px;
-    }  
-    .about-img {
+    }
+
+    .about_img {
         padding-top: 30px;
     }
-    .swiper-slide{
+
+    .swiper-slide {
         width: 300px !important;
     }
 }

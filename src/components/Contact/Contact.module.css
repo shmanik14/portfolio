@@ -1,0 +1,27 @@
+.contact {
+    padding: 60px 0;
+    background-color: #f3f3f3;
+}
+
+.input_pb {
+    margin-bottom: 15px;
+}
+
+.sub_btn {
+    background-color: #0063D1;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 25px;
+    border-radius: 23px;
+}
+
+.section_title h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 35px;
+    position: relative;
+    color: #000;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 40px;
+}
